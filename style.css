@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body { 
+    background-color: rgba(95, 181, 227, 0.3);
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+}
+
+header {
+    background-color: #1172a6;
+    padding: 1rem;
+}
+
+header h1 {
+    color: #fff;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+}
+
+header nav ul li {
+    padding: 1rem;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    padding: 0.5rem;
+}
+
+header nav ul li a:hover {
+    border-radius: 5px;
+    background-color: #fff;
+    color: #1172a6;
+}
+
+section {
+    text-align: center;
+    margin-top: 1.8rem;
+}
+
+section h2 {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+section p {
+    padding: 0.5rem;
+}
+
+section nav ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+section nav ul li {
+    padding: 0.3rem;
+}
+
+.box {
+    width: 50%; 
+    margin: 0 auto; 
+    padding: 1rem;
+    background-color: #fff; 
+    border: 2px solid #1172a6; 
+    border-radius: 10px; 
+}

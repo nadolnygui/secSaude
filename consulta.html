@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Oswald:wght@200..700&family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+    <title>CONSULTA DE PACIENTES</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>CONSULTA DE PACIENTES</h1>
+            <nav>
+                <ul>
+                    <li><a href="/">PÁGINA INICIAL</a></li>
+                    <li><a href="./cadastro.html">CADASTRO</a></li>
+                    <li><a href="#">ALTERAÇÃO</a></li>
+                    <li><a href="#">REMOÇÃO</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="consulta">
+        <div class="container">
+            <h2>Pesquisar Pacientes</h2>
+            <div class="search">
+                <label for="search">Digite o nome do paciente ou suplemento:</label>
+                <input type="text" id="search" placeholder="Ex: João Silva ou Suplemento X">
+                <button type="button">Pesquisar</button>
+            </div>
+            <div class="tabela">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Data de Nascimento</th>
+                            <th>Suplemento</th>
+                            <th>Quantidade</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>João Silva</td>
+                            <td>01/01/1980</td>
+                            <td>Suplemento X</td>
+                            <td>10</td>
+                            <td>
+                                <button>Editar</button>
+                                <button>Remover</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Ana Costa</td>
+                            <td>15/03/1975</td>
+                            <td>Suplemento Y</td>
+                            <td>12</td>
+                            <td>
+                                <button>Editar</button>
+                                <button>Remover</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

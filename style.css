@@ -53,7 +53,7 @@ header nav ul li a:hover {
     color: #1172a6;
 }
 
-section {
+section.guia {
     text-align: center;
     margin-top: 1.8rem;
 }
@@ -85,3 +85,52 @@ section nav ul li {
     border: 2px solid #1172a6; 
     border-radius: 10px; 
 }
+
+.cadastro {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 500px;
+    margin: 1rem 1rem;
+  }
+  
+  .cadastro label {
+    margin-bottom: 5px;
+  }
+  
+  .cadastro input,
+  .cadastro button {
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .cadastro input[type="text"],
+  .cadastro input[type="date"],
+  .cadastro input[type="number"],
+  .cadastro button {
+    width: 100%;
+  }
+  
+  .radio-group {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  .cadastro button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .cadastro button:hover {
+    background-color: #0056b3;
+  }
+  
+  .tabela {
+    display: flex;
+    flex-direction: column;
+  }

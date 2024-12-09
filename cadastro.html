@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Oswald:wght@200..700&family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+    <title>CONTROLE DE PACIENTES</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>CADASTRO DE PACIENTES</h1>
+            <nav>
+                <ul>
+                    <li><a href="/">PÁGINA INICIAL</a></li>
+                    <li><a href="./consulta.html">CONSULTA</a></li>
+                    <li><a href="#">ALTERAÇÃO</a></li>
+                    <li><a href="#">REMOÇÃO</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <form class="cadastro">
+            <label for="name">Nome do paciente: </label>
+            <input type="text" id="name" required>
+          
+            <label for="date">Data de nascimento: </label>
+            <input type="date" id="date" required>
+          
+            <label for="suplemento">Nome do suplemento: </label>
+            <input type="text" id="suplemento" required>
+          
+            <label for="tel">Telefone para contato: </label>
+            <input type="tel" id="tel" required>
+
+            <label for="qtd">Quantidade mensal: </label>
+            <input type="number" id="qtd" min="1" max="24" required>
+          
+            <label>Usa sonda? </label>
+            <div class="radio-group">
+              <input type="radio" id="usaSondaSim" name="usaSonda" value="sim" required>
+              <label for="usaSondaSim">Sim</label>
+              <input type="radio" id="usaSondaNao" name="usaSonda" value="nao" required>
+              <label for="usaSondaNao">Não</label>
+            </div>
+          
+            <label>É diabético? </label>
+            <div class="radio-group">
+              <input type="radio" id="diabeticoSim" name="diabete" value="sim" required>
+              <label for="diabeticoSim">Sim</label>
+              <input type="radio" id="diabeticoNao" name="diabete" value="nao" required>
+              <label for="diabeticoNao">Não</label>
+            </div>
+          
+            <button type="submit">Cadastrar</button>
+          </form>
+    </section>
+</body>
+</html>
